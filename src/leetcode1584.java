@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-
+//why use two array: fa and rank
+//how union operate the fa and rank
+//how find works
 public class leetcode1584 {
     /**
      * 不清楚并查集、路径压缩、按秩合并的请先自行学习 https://zhuanlan.zhihu.com/p/93647900/
