@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+//the condition for being a tree is there is no cycle
 public class leetcode261 {
     public static boolean validTree(int n, int[][] edges) {
         DisjointSet disjointSet = new DisjointSet(n);
@@ -13,7 +13,7 @@ public class leetcode261 {
 
     public static void main(String[] args) {
         int n = 5;
-        int[][] edges = {{0,0},{2,2},{3,10},{5,2},{7,0}};
+        int[][] edges = {{0,1},{0,2},{0,3},{1,3},{1,4}};
         boolean res = validTree(n, edges);
         System.out.println(res);
     }
